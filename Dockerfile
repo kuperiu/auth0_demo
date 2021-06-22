@@ -1,11 +1,8 @@
-FROM debian:stable-slim
-
-LABEL maintainer.0="João Fonseca (@joaopaulofonseca)" \
-  maintainer.1="Pedro Branco (@pedrobranco)" \
-  maintainer.2="Rui Marinho (@ruimarinho)"
+FROM debian:stable-slim as pkg
 
 RUN useradd -r litecoin \
   && apt-get update -y \
+  && apt-get install -y libgcrypt20 libgnutls30 libhogweed4 libnettle6 liblz4-1 \
   && apt-get install -y curl gnupg \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* \
@@ -38,13 +35,15 @@ RUN curl -SLO https://download.litecoin.org/litecoin-${LITECOIN_VERSION}/linux/l
   && tar --strip=2 -xzf *.tar.gz -C /usr/local/bin \
   && rm *.tar.gz
 
+
+
+FROM debian:stable-slim
+RUN useradd -r litecoin
+COPY --from=pkg --chown=litecoin:litecoin /usr/local/bin/litecoind /usr/local/bin/
+COPY --from=pkg --chown=litecoin:litecoin /usr/local/bin/gosu /usr/local/bin/
+ENV LITECOIN_DATA=/home/litecoin/.litecoin  
 COPY docker-entrypoint.sh /entrypoint.sh
-
 VOLUME ["/home/litecoin/.litecoin"]
-
 EXPOSE 9332 9333 19332 19333 19444
-
 ENTRYPOINT ["/entrypoint.sh"]
-
 CMD ["litecoind"]
-

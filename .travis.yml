@@ -2,11 +2,16 @@ dist: trusty
 
 jobs:
   include:
-    - stage: deploy to k8s
-      before_script:
-      - curl -Lo kubectl https://storage.googleapis.com/kubernetes-release/release/v1.7.0/bin/linux/amd64/kubectl && \
-          chmod +x kubectl && sudo mv kubectl /usr/local/bin/
+    - stage: build and push 
       script:
+      - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USER" --password-stdin
+      - docker build -t kuperiu/litecoin:0.18.1 .
+      - docker push kuperiu/litecoin:0.18.1
       - kubectl apply -f k8s.yaml
 
-      
+    - stage: deploy
+      before_script:
+        # Download and install kubectl
+        - curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl && chmod +x kubectl && sudo mv kubectl /usr/local/bin/
+      script:
+      - kubectl apply -f k8s.yaml 
