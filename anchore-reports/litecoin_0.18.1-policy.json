@@ -1,6 +1,6 @@
 [
     {
-        "sha256:b4e291cdff6d13cb9c4edef51b376fae3b6535e72df12d6aeeedf086b569f00d": {
+        "sha256:57eaca036914ee806acc9bda6b67f1363b49a8c7749a65e652df463c76cdd08c": {
             "localhost:5000/litecoin:0.18.1": [
                 {
                     "detail": {
@@ -273,13 +273,13 @@
                                     }
                                 ]
                             },
-                            "created_at": 1624395804,
+                            "created_at": 1624397313,
                             "evaluation_problems": [],
-                            "final_action": "warn",
+                            "final_action": "stop",
                             "final_action_reason": "policy_evaluation",
-                            "image_digest": "sha256:b4e291cdff6d13cb9c4edef51b376fae3b6535e72df12d6aeeedf086b569f00d",
-                            "image_id": "78899df7e5430024886d4a585bb731f6a8c85370d0db9e1415738298c0f13140",
-                            "last_modified": 1624395804,
+                            "image_digest": "sha256:57eaca036914ee806acc9bda6b67f1363b49a8c7749a65e652df463c76cdd08c",
+                            "image_id": "2d22e63b017f5fe852ca3099a81d6a5aa312d438e5fae75680f5e2bacb587d70",
+                            "last_modified": 1624397313,
                             "matched_blacklisted_images_rule": false,
                             "matched_mapping_rule": {
                                 "id": "c4f9bf74-dc38-4ddf-b5cf-00e9c0074611",
@@ -297,9 +297,9 @@
                             },
                             "matched_whitelisted_images_rule": false,
                             "result": {
-                                "78899df7e5430024886d4a585bb731f6a8c85370d0db9e1415738298c0f13140": {
+                                "2d22e63b017f5fe852ca3099a81d6a5aa312d438e5fae75680f5e2bacb587d70": {
                                     "result": {
-                                        "final_action": "warn",
+                                        "final_action": "stop",
                                         "header": [
                                             "Image_Id",
                                             "Repo_Tag",
@@ -311,10 +311,10 @@
                                             "Whitelisted",
                                             "Policy_Id"
                                         ],
-                                        "row_count": 2,
+                                        "row_count": 9,
                                         "rows": [
                                             [
-                                                "78899df7e5430024886d4a585bb731f6a8c85370d0db9e1415738298c0f13140",
+                                                "2d22e63b017f5fe852ca3099a81d6a5aa312d438e5fae75680f5e2bacb587d70",
                                                 "localhost:5000/litecoin:0.18.1",
                                                 "41cb7cdf04850e33a11f80c42bf660b3",
                                                 "dockerfile",
@@ -325,13 +325,90 @@
                                                 "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
                                             ],
                                             [
-                                                "78899df7e5430024886d4a585bb731f6a8c85370d0db9e1415738298c0f13140",
+                                                "2d22e63b017f5fe852ca3099a81d6a5aa312d438e5fae75680f5e2bacb587d70",
+                                                "localhost:5000/litecoin:0.18.1",
+                                                "CVE-2021-33560+libgcrypt20",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (dpkg) - libgcrypt20 (fixed in: 1.8.4-5+deb10u1)(CVE-2021-33560 - https://security-tracker.debian.org/tracker/CVE-2021-33560)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "2d22e63b017f5fe852ca3099a81d6a5aa312d438e5fae75680f5e2bacb587d70",
                                                 "localhost:5000/litecoin:0.18.1",
                                                 "CVE-2011-3389+libgnutls30",
                                                 "vulnerabilities",
                                                 "package",
                                                 "MEDIUM Vulnerability found in os package type (dpkg) - libgnutls30 (CVE-2011-3389 - https://security-tracker.debian.org/tracker/CVE-2011-3389)",
                                                 "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "2d22e63b017f5fe852ca3099a81d6a5aa312d438e5fae75680f5e2bacb587d70",
+                                                "localhost:5000/litecoin:0.18.1",
+                                                "CVE-2020-24659+libgnutls30",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (dpkg) - libgnutls30 (fixed in: 3.6.7-4+deb10u7)(CVE-2020-24659 - https://security-tracker.debian.org/tracker/CVE-2020-24659)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "2d22e63b017f5fe852ca3099a81d6a5aa312d438e5fae75680f5e2bacb587d70",
+                                                "localhost:5000/litecoin:0.18.1",
+                                                "CVE-2021-20305+libhogweed4",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (dpkg) - libhogweed4 (fixed in: 3.4.1-1+deb10u1)(CVE-2021-20305 - https://security-tracker.debian.org/tracker/CVE-2021-20305)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "2d22e63b017f5fe852ca3099a81d6a5aa312d438e5fae75680f5e2bacb587d70",
+                                                "localhost:5000/litecoin:0.18.1",
+                                                "CVE-2021-20305+libnettle6",
+                                                "vulnerabilities",
+                                                "package",
+                                                "MEDIUM Vulnerability found in os package type (dpkg) - libnettle6 (fixed in: 3.4.1-1+deb10u1)(CVE-2021-20305 - https://security-tracker.debian.org/tracker/CVE-2021-20305)",
+                                                "warn",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "2d22e63b017f5fe852ca3099a81d6a5aa312d438e5fae75680f5e2bacb587d70",
+                                                "localhost:5000/litecoin:0.18.1",
+                                                "CVE-2021-20231+libgnutls30",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (dpkg) - libgnutls30 (fixed in: 3.6.7-4+deb10u7)(CVE-2021-20231 - https://security-tracker.debian.org/tracker/CVE-2021-20231)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "2d22e63b017f5fe852ca3099a81d6a5aa312d438e5fae75680f5e2bacb587d70",
+                                                "localhost:5000/litecoin:0.18.1",
+                                                "CVE-2021-20232+libgnutls30",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (dpkg) - libgnutls30 (fixed in: 3.6.7-4+deb10u7)(CVE-2021-20232 - https://security-tracker.debian.org/tracker/CVE-2021-20232)",
+                                                "stop",
+                                                false,
+                                                "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
+                                            ],
+                                            [
+                                                "2d22e63b017f5fe852ca3099a81d6a5aa312d438e5fae75680f5e2bacb587d70",
+                                                "localhost:5000/litecoin:0.18.1",
+                                                "CVE-2021-3520+liblz4-1",
+                                                "vulnerabilities",
+                                                "package",
+                                                "HIGH Vulnerability found in os package type (dpkg) - liblz4-1 (fixed in: 1.8.3-1+deb10u1)(CVE-2021-3520 - https://security-tracker.debian.org/tracker/CVE-2021-3520)",
+                                                "stop",
                                                 false,
                                                 "48e6f7d6-1765-11e8-b5f9-8b6f228548b6"
                                             ]
@@ -343,14 +420,14 @@
                                 "whitelist_data": [],
                                 "whitelist_names": []
                             },
-                            "status": "pass",
+                            "status": "fail",
                             "tag": "localhost:5000/litecoin:0.18.1",
                             "user_id": "admin"
                         }
                     },
-                    "last_evaluation": "2021-06-22T21:03:25Z",
+                    "last_evaluation": "2021-06-22T21:28:33Z",
                     "policyId": "2c53a13c-1765-11e8-82ef-23527761d060",
-                    "status": "pass"
+                    "status": "fail"
                 }
             ]
         }

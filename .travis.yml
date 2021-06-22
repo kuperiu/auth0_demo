@@ -2,11 +2,6 @@ dist: trusty
 
 jobs:
   include:
-    - stage: build and push 
-      script:
-      - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USER" --password-stdin
-      - docker build -t kuperiu/litecoin:0.18.1 .
-      - docker push kuperiu/litecoin:0.18.1
 
     - stage: deploy
       before_script:

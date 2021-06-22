@@ -1,41 +1,41 @@
 [
     {
         "analysis_status": "analyzed",
-        "analyzed_at": "2021-06-22T21:02:34Z",
+        "analyzed_at": "2021-06-22T21:27:47Z",
         "annotations": {},
-        "created_at": "2021-06-22T20:59:40Z",
-        "imageDigest": "sha256:b4e291cdff6d13cb9c4edef51b376fae3b6535e72df12d6aeeedf086b569f00d",
+        "created_at": "2021-06-22T21:24:49Z",
+        "imageDigest": "sha256:57eaca036914ee806acc9bda6b67f1363b49a8c7749a65e652df463c76cdd08c",
         "image_content": {
             "metadata": {
                 "arch": "amd64",
                 "distro": "debian",
                 "distro_version": "10",
                 "dockerfile_mode": "Guessed",
-                "image_size": 175513600,
+                "image_size": 90122240,
                 "layer_count": 5
             }
         },
         "image_detail": [
             {
-                "created_at": "2021-06-22T20:59:40Z",
-                "digest": "sha256:b4e291cdff6d13cb9c4edef51b376fae3b6535e72df12d6aeeedf086b569f00d",
-                "dockerfile": "RlJPTSBzY3JhdGNoCkFERCBmaWxlOjYzOWE5MDQ0NzI5MjA3NDZmYTNiZDQwZmY4MjNiN2MyZjMwZjgwZGQ1MThmNDMyOGNhMmE3YzJhYjA0MGNjYzEgaW4gLyAKQ01EIFsiYmFzaCJdClJVTiBSVU4gL2Jpbi9zaCAtYyB1c2VyYWRkIC1yIGxpdGVjb2luICAgJiYgYXB0LWdldCB1cGRhdGUgLXkgICAmJiBhcHQtZ2V0IGluc3RhbGwgLXkgbGliZ2NyeXB0MjAgbGliZ251dGxzMzAgbGliaG9nd2VlZDQgbGlibmV0dGxlNiBsaWJsejQtMSAgICYmIGFwdC1nZXQgaW5zdGFsbCAteSBjdXJsIGdudXBnICAgJiYgYXB0LWdldCBjbGVhbiAgICYmIHJtIC1yZiAvdmFyL2xpYi9hcHQvbGlzdHMvKiAvdG1wLyogL3Zhci90bXAvKiAgICYmIHNldCAtZXggICAmJiBmb3Iga2V5IGluICAgICBCNDJGNjgxOTAwN0YwMEY4OEUzNjRGRDQwMzZBOUMyNUJGMzU3REQ0ICAgICBGRTMzNDg4Nzc4MDkzODZDICAgOyBkbyAgICAgZ3BnIC0tbm8tdHR5IC0ta2V5c2VydmVyIHBncC5taXQuZWR1IC0tcmVjdi1rZXlzICIka2V5IiB8fCAgICAgZ3BnIC0tbm8tdHR5IC0ta2V5c2VydmVyIGtleXNlcnZlci5wZ3AuY29tIC0tcmVjdi1rZXlzICIka2V5IiB8fCAgICAgZ3BnIC0tbm8tdHR5IC0ta2V5c2VydmVyIGhhLnBvb2wuc2tzLWtleXNlcnZlcnMubmV0IC0tcmVjdi1rZXlzICIka2V5IiB8fCAgICAgZ3BnIC0tbm8tdHR5IC0ta2V5c2VydmVyIGhrcDovL3A4MC5wb29sLnNrcy1rZXlzZXJ2ZXJzLm5ldDo4MCAtLXJlY3Yta2V5cyAiJGtleSIgOyAgIGRvbmUgIyBidWlsZGtpdApSVU4gRU5WIEdPU1VfVkVSU0lPTj0xLjEwClJVTiBSVU4gL2Jpbi9zaCAtYyBjdXJsIC1vIC91c3IvbG9jYWwvYmluL2dvc3UgLWZTTCBodHRwczovL2dpdGh1Yi5jb20vdGlhbm9uL2dvc3UvcmVsZWFzZXMvZG93bmxvYWQvJHtHT1NVX1ZFUlNJT059L2dvc3UtJChkcGtnIC0tcHJpbnQtYXJjaGl0ZWN0dXJlKSAgICYmIGN1cmwgLW8gL3Vzci9sb2NhbC9iaW4vZ29zdS5hc2MgLWZTTCBodHRwczovL2dpdGh1Yi5jb20vdGlhbm9uL2dvc3UvcmVsZWFzZXMvZG93bmxvYWQvJHtHT1NVX1ZFUlNJT059L2dvc3UtJChkcGtnIC0tcHJpbnQtYXJjaGl0ZWN0dXJlKS5hc2MgICAmJiBncGcgLS12ZXJpZnkgL3Vzci9sb2NhbC9iaW4vZ29zdS5hc2MgICAmJiBybSAvdXNyL2xvY2FsL2Jpbi9nb3N1LmFzYyAgICYmIGNobW9kICt4IC91c3IvbG9jYWwvYmluL2dvc3UgIyBidWlsZGtpdApSVU4gRU5WIExJVEVDT0lOX1ZFUlNJT049MC4xOC4xClJVTiBFTlYgTElURUNPSU5fREFUQT0vaG9tZS9saXRlY29pbi8ubGl0ZWNvaW4KUlVOIFJVTiAvYmluL3NoIC1jIGN1cmwgLVNMTyBodHRwczovL2Rvd25sb2FkLmxpdGVjb2luLm9yZy9saXRlY29pbi0ke0xJVEVDT0lOX1ZFUlNJT059L2xpbnV4L2xpdGVjb2luLSR7TElURUNPSU5fVkVSU0lPTn0teDg2XzY0LWxpbnV4LWdudS50YXIuZ3ogICAmJiBjdXJsIC1TTE8gaHR0cHM6Ly9kb3dubG9hZC5saXRlY29pbi5vcmcvbGl0ZWNvaW4tJHtMSVRFQ09JTl9WRVJTSU9OfS9saW51eC9saXRlY29pbi0ke0xJVEVDT0lOX1ZFUlNJT059LWxpbnV4LXNpZ25hdHVyZXMuYXNjICAgJiYgZ3BnIC0tdmVyaWZ5IGxpdGVjb2luLSR7TElURUNPSU5fVkVSU0lPTn0tbGludXgtc2lnbmF0dXJlcy5hc2MgICAmJiBncmVwICQoc2hhMjU2c3VtIGxpdGVjb2luLSR7TElURUNPSU5fVkVSU0lPTn0teDg2XzY0LWxpbnV4LWdudS50YXIuZ3ogfCBhd2sgJ3sgcHJpbnQgJDEgfScpIGxpdGVjb2luLSR7TElURUNPSU5fVkVSU0lPTn0tbGludXgtc2lnbmF0dXJlcy5hc2MgICAmJiB0YXIgLS1zdHJpcD0yIC14emYgKi50YXIuZ3ogLUMgL3Vzci9sb2NhbC9iaW4gICAmJiBybSAqLnRhci5neiAjIGJ1aWxka2l0ClJVTiBDT1BZIGRvY2tlci1lbnRyeXBvaW50LnNoIC9lbnRyeXBvaW50LnNoICMgYnVpbGRraXQKUlVOIFZPTFVNRSBbL2hvbWUvbGl0ZWNvaW4vLmxpdGVjb2luXQpSVU4gRVhQT1NFIG1hcFsxOTMzMi90Y3A6e30gMTkzMzMvdGNwOnt9IDE5NDQ0L3RjcDp7fSA5MzMyL3RjcDp7fSA5MzMzL3RjcDp7fV0KUlVOIEVOVFJZUE9JTlQgWyIvZW50cnlwb2ludC5zaCJdClJVTiBDTUQgWyJsaXRlY29pbmQiXQo=",
-                "fulldigest": "localhost:5000/litecoin@sha256:b4e291cdff6d13cb9c4edef51b376fae3b6535e72df12d6aeeedf086b569f00d",
+                "created_at": "2021-06-22T21:24:49Z",
+                "digest": "sha256:57eaca036914ee806acc9bda6b67f1363b49a8c7749a65e652df463c76cdd08c",
+                "dockerfile": "RlJPTSBzY3JhdGNoCkFERCBmaWxlOjYzOWE5MDQ0NzI5MjA3NDZmYTNiZDQwZmY4MjNiN2MyZjMwZjgwZGQ1MThmNDMyOGNhMmE3YzJhYjA0MGNjYzEgaW4gLyAKQ01EIFsiYmFzaCJdClJVTiBSVU4gL2Jpbi9zaCAtYyB1c2VyYWRkIC1yIGxpdGVjb2luICMgYnVpbGRraXQKUlVOIENPUFkgL3Vzci9sb2NhbC9iaW4vbGl0ZWNvaW5kIC91c3IvbG9jYWwvYmluLyAjIGJ1aWxka2l0ClJVTiBDT1BZIC91c3IvbG9jYWwvYmluL2dvc3UgL3Vzci9sb2NhbC9iaW4vICMgYnVpbGRraXQKUlVOIEVOViBMSVRFQ09JTl9EQVRBPS9ob21lL2xpdGVjb2luLy5saXRlY29pbgpSVU4gQ09QWSBkb2NrZXItZW50cnlwb2ludC5zaCAvZW50cnlwb2ludC5zaCAjIGJ1aWxka2l0ClJVTiBWT0xVTUUgWy9ob21lL2xpdGVjb2luLy5saXRlY29pbl0KUlVOIEVYUE9TRSBtYXBbMTkzMzIvdGNwOnt9IDE5MzMzL3RjcDp7fSAxOTQ0NC90Y3A6e30gOTMzMi90Y3A6e30gOTMzMy90Y3A6e31dClJVTiBFTlRSWVBPSU5UIFsiL2VudHJ5cG9pbnQuc2giXQpSVU4gQ01EIFsibGl0ZWNvaW5kIl0K",
+                "fulldigest": "localhost:5000/litecoin@sha256:57eaca036914ee806acc9bda6b67f1363b49a8c7749a65e652df463c76cdd08c",
                 "fulltag": "localhost:5000/litecoin:0.18.1",
-                "imageDigest": "sha256:b4e291cdff6d13cb9c4edef51b376fae3b6535e72df12d6aeeedf086b569f00d",
-                "imageId": "78899df7e5430024886d4a585bb731f6a8c85370d0db9e1415738298c0f13140",
-                "last_updated": "2021-06-22T21:02:35Z",
+                "imageDigest": "sha256:57eaca036914ee806acc9bda6b67f1363b49a8c7749a65e652df463c76cdd08c",
+                "imageId": "2d22e63b017f5fe852ca3099a81d6a5aa312d438e5fae75680f5e2bacb587d70",
+                "last_updated": "2021-06-22T21:27:47Z",
                 "registry": "localhost:5000",
                 "repo": "litecoin",
                 "tag": "0.18.1",
-                "tag_detected_at": "2021-06-22T20:59:40Z",
+                "tag_detected_at": "2021-06-22T21:24:49Z",
                 "userId": "admin"
             }
         ],
         "image_status": "active",
         "image_type": "docker",
-        "last_updated": "2021-06-22T21:02:35Z",
-        "parentDigest": "sha256:b4e291cdff6d13cb9c4edef51b376fae3b6535e72df12d6aeeedf086b569f00d",
+        "last_updated": "2021-06-22T21:27:47Z",
+        "parentDigest": "sha256:57eaca036914ee806acc9bda6b67f1363b49a8c7749a65e652df463c76cdd08c",
         "userId": "admin"
     }
 ]

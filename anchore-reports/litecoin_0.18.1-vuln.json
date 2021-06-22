@@ -1,5 +1,5 @@
 {
-    "imageDigest": "sha256:b4e291cdff6d13cb9c4edef51b376fae3b6535e72df12d6aeeedf086b569f00d",
+    "imageDigest": "sha256:57eaca036914ee806acc9bda6b67f1363b49a8c7749a65e652df463c76cdd08c",
     "vulnerabilities": [
         {
             "feed": "vulnerabilities",
@@ -93,68 +93,6 @@
             "url": "https://security-tracker.debian.org/tracker/CVE-2017-18018",
             "vendor_data": [],
             "vuln": "CVE-2017-18018"
-        },
-        {
-            "feed": "vulnerabilities",
-            "feed_group": "debian:10",
-            "fix": "None",
-            "nvd_data": [
-                {
-                    "cvss_v2": {
-                        "base_score": 2.1,
-                        "exploitability_score": 3.9,
-                        "impact_score": 2.9
-                    },
-                    "cvss_v3": {
-                        "base_score": -1.0,
-                        "exploitability_score": -1.0,
-                        "impact_score": -1.0
-                    },
-                    "id": "CVE-2004-0971"
-                }
-            ],
-            "package": "krb5-locales-1.17-3+deb10u1",
-            "package_cpe": "None",
-            "package_cpe23": "None",
-            "package_name": "krb5-locales",
-            "package_path": "pkgdb",
-            "package_type": "dpkg",
-            "package_version": "1.17-3+deb10u1",
-            "severity": "Negligible",
-            "url": "https://security-tracker.debian.org/tracker/CVE-2004-0971",
-            "vendor_data": [],
-            "vuln": "CVE-2004-0971"
-        },
-        {
-            "feed": "vulnerabilities",
-            "feed_group": "debian:10",
-            "fix": "None",
-            "nvd_data": [
-                {
-                    "cvss_v2": {
-                        "base_score": 5.0,
-                        "exploitability_score": 10.0,
-                        "impact_score": 2.9
-                    },
-                    "cvss_v3": {
-                        "base_score": 7.5,
-                        "exploitability_score": 3.9,
-                        "impact_score": 3.6
-                    },
-                    "id": "CVE-2018-5709"
-                }
-            ],
-            "package": "krb5-locales-1.17-3+deb10u1",
-            "package_cpe": "None",
-            "package_cpe23": "None",
-            "package_name": "krb5-locales",
-            "package_path": "pkgdb",
-            "package_type": "dpkg",
-            "package_version": "1.17-3+deb10u1",
-            "severity": "Negligible",
-            "url": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
-            "vendor_data": [],
-            "vuln": "CVE-2018-5709"
         },
         {
             "feed": "vulnerabilities",
@@ -764,17 +702,48 @@
                     "id": "CVE-2018-6829"
                 }
             ],
-            "package": "libgcrypt20-1.8.4-5+deb10u1",
+            "package": "libgcrypt20-1.8.4-5",
             "package_cpe": "None",
             "package_cpe23": "None",
             "package_name": "libgcrypt20",
             "package_path": "pkgdb",
             "package_type": "dpkg",
-            "package_version": "1.8.4-5+deb10u1",
+            "package_version": "1.8.4-5",
             "severity": "Negligible",
             "url": "https://security-tracker.debian.org/tracker/CVE-2018-6829",
             "vendor_data": [],
             "vuln": "CVE-2018-6829"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "debian:10",
+            "fix": "1.8.4-5+deb10u1",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 5.0,
+                        "exploitability_score": 10.0,
+                        "impact_score": 2.9
+                    },
+                    "cvss_v3": {
+                        "base_score": 7.5,
+                        "exploitability_score": 3.9,
+                        "impact_score": 3.6
+                    },
+                    "id": "CVE-2021-33560"
+                }
+            ],
+            "package": "libgcrypt20-1.8.4-5",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libgcrypt20",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "1.8.4-5",
+            "severity": "Medium",
+            "url": "https://security-tracker.debian.org/tracker/CVE-2021-33560",
+            "vendor_data": [],
+            "vuln": "CVE-2021-33560"
         },
         {
             "feed": "vulnerabilities",
@@ -795,13 +764,13 @@
                     "id": "CVE-2011-3389"
                 }
             ],
-            "package": "libgnutls30-3.6.7-4+deb10u7",
+            "package": "libgnutls30-3.6.7-4+deb10u6",
             "package_cpe": "None",
             "package_cpe23": "None",
             "package_name": "libgnutls30",
             "package_path": "pkgdb",
             "package_type": "dpkg",
-            "package_version": "3.6.7-4+deb10u7",
+            "package_version": "3.6.7-4+deb10u6",
             "severity": "Medium",
             "url": "https://security-tracker.debian.org/tracker/CVE-2011-3389",
             "vendor_data": [],
@@ -810,38 +779,7 @@
         {
             "feed": "vulnerabilities",
             "feed_group": "debian:10",
-            "fix": "None",
-            "nvd_data": [
-                {
-                    "cvss_v2": {
-                        "base_score": 2.1,
-                        "exploitability_score": 3.9,
-                        "impact_score": 2.9
-                    },
-                    "cvss_v3": {
-                        "base_score": -1.0,
-                        "exploitability_score": -1.0,
-                        "impact_score": -1.0
-                    },
-                    "id": "CVE-2004-0971"
-                }
-            ],
-            "package": "libgssapi-krb5-2-1.17-3+deb10u1",
-            "package_cpe": "None",
-            "package_cpe23": "None",
-            "package_name": "libgssapi-krb5-2",
-            "package_path": "pkgdb",
-            "package_type": "dpkg",
-            "package_version": "1.17-3+deb10u1",
-            "severity": "Negligible",
-            "url": "https://security-tracker.debian.org/tracker/CVE-2004-0971",
-            "vendor_data": [],
-            "vuln": "CVE-2004-0971"
-        },
-        {
-            "feed": "vulnerabilities",
-            "feed_group": "debian:10",
-            "fix": "None",
+            "fix": "3.6.7-4+deb10u7",
             "nvd_data": [
                 {
                     "cvss_v2": {
@@ -854,454 +792,209 @@
                         "exploitability_score": 3.9,
                         "impact_score": 3.6
                     },
-                    "id": "CVE-2018-5709"
+                    "id": "CVE-2020-24659"
                 }
             ],
-            "package": "libgssapi-krb5-2-1.17-3+deb10u1",
+            "package": "libgnutls30-3.6.7-4+deb10u6",
             "package_cpe": "None",
             "package_cpe23": "None",
-            "package_name": "libgssapi-krb5-2",
+            "package_name": "libgnutls30",
             "package_path": "pkgdb",
             "package_type": "dpkg",
-            "package_version": "1.17-3+deb10u1",
-            "severity": "Negligible",
-            "url": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
+            "package_version": "3.6.7-4+deb10u6",
+            "severity": "Medium",
+            "url": "https://security-tracker.debian.org/tracker/CVE-2020-24659",
             "vendor_data": [],
-            "vuln": "CVE-2018-5709"
+            "vuln": "CVE-2020-24659"
         },
         {
             "feed": "vulnerabilities",
             "feed_group": "debian:10",
-            "fix": "None",
+            "fix": "3.6.7-4+deb10u7",
             "nvd_data": [
                 {
                     "cvss_v2": {
-                        "base_score": 2.1,
-                        "exploitability_score": 3.9,
-                        "impact_score": 2.9
-                    },
-                    "cvss_v3": {
-                        "base_score": -1.0,
-                        "exploitability_score": -1.0,
-                        "impact_score": -1.0
-                    },
-                    "id": "CVE-2004-0971"
-                }
-            ],
-            "package": "libk5crypto3-1.17-3+deb10u1",
-            "package_cpe": "None",
-            "package_cpe23": "None",
-            "package_name": "libk5crypto3",
-            "package_path": "pkgdb",
-            "package_type": "dpkg",
-            "package_version": "1.17-3+deb10u1",
-            "severity": "Negligible",
-            "url": "https://security-tracker.debian.org/tracker/CVE-2004-0971",
-            "vendor_data": [],
-            "vuln": "CVE-2004-0971"
-        },
-        {
-            "feed": "vulnerabilities",
-            "feed_group": "debian:10",
-            "fix": "None",
-            "nvd_data": [
-                {
-                    "cvss_v2": {
-                        "base_score": 5.0,
-                        "exploitability_score": 10.0,
-                        "impact_score": 2.9
-                    },
-                    "cvss_v3": {
                         "base_score": 7.5,
-                        "exploitability_score": 3.9,
-                        "impact_score": 3.6
-                    },
-                    "id": "CVE-2018-5709"
-                }
-            ],
-            "package": "libk5crypto3-1.17-3+deb10u1",
-            "package_cpe": "None",
-            "package_cpe23": "None",
-            "package_name": "libk5crypto3",
-            "package_path": "pkgdb",
-            "package_type": "dpkg",
-            "package_version": "1.17-3+deb10u1",
-            "severity": "Negligible",
-            "url": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
-            "vendor_data": [],
-            "vuln": "CVE-2018-5709"
-        },
-        {
-            "feed": "vulnerabilities",
-            "feed_group": "debian:10",
-            "fix": "None",
-            "nvd_data": [
-                {
-                    "cvss_v2": {
-                        "base_score": 2.1,
-                        "exploitability_score": 3.9,
-                        "impact_score": 2.9
-                    },
-                    "cvss_v3": {
-                        "base_score": -1.0,
-                        "exploitability_score": -1.0,
-                        "impact_score": -1.0
-                    },
-                    "id": "CVE-2004-0971"
-                }
-            ],
-            "package": "libkrb5-3-1.17-3+deb10u1",
-            "package_cpe": "None",
-            "package_cpe23": "None",
-            "package_name": "libkrb5-3",
-            "package_path": "pkgdb",
-            "package_type": "dpkg",
-            "package_version": "1.17-3+deb10u1",
-            "severity": "Negligible",
-            "url": "https://security-tracker.debian.org/tracker/CVE-2004-0971",
-            "vendor_data": [],
-            "vuln": "CVE-2004-0971"
-        },
-        {
-            "feed": "vulnerabilities",
-            "feed_group": "debian:10",
-            "fix": "None",
-            "nvd_data": [
-                {
-                    "cvss_v2": {
-                        "base_score": 5.0,
                         "exploitability_score": 10.0,
-                        "impact_score": 2.9
+                        "impact_score": 6.4
                     },
                     "cvss_v3": {
+                        "base_score": 9.8,
+                        "exploitability_score": 3.9,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2021-20231"
+                }
+            ],
+            "package": "libgnutls30-3.6.7-4+deb10u6",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libgnutls30",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "3.6.7-4+deb10u6",
+            "severity": "High",
+            "url": "https://security-tracker.debian.org/tracker/CVE-2021-20231",
+            "vendor_data": [],
+            "vuln": "CVE-2021-20231"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "debian:10",
+            "fix": "3.6.7-4+deb10u7",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
                         "base_score": 7.5,
-                        "exploitability_score": 3.9,
-                        "impact_score": 3.6
-                    },
-                    "id": "CVE-2018-5709"
-                }
-            ],
-            "package": "libkrb5-3-1.17-3+deb10u1",
-            "package_cpe": "None",
-            "package_cpe23": "None",
-            "package_name": "libkrb5-3",
-            "package_path": "pkgdb",
-            "package_type": "dpkg",
-            "package_version": "1.17-3+deb10u1",
-            "severity": "Negligible",
-            "url": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
-            "vendor_data": [],
-            "vuln": "CVE-2018-5709"
-        },
-        {
-            "feed": "vulnerabilities",
-            "feed_group": "debian:10",
-            "fix": "None",
-            "nvd_data": [
-                {
-                    "cvss_v2": {
-                        "base_score": 2.1,
-                        "exploitability_score": 3.9,
-                        "impact_score": 2.9
-                    },
-                    "cvss_v3": {
-                        "base_score": -1.0,
-                        "exploitability_score": -1.0,
-                        "impact_score": -1.0
-                    },
-                    "id": "CVE-2004-0971"
-                }
-            ],
-            "package": "libkrb5support0-1.17-3+deb10u1",
-            "package_cpe": "None",
-            "package_cpe23": "None",
-            "package_name": "libkrb5support0",
-            "package_path": "pkgdb",
-            "package_type": "dpkg",
-            "package_version": "1.17-3+deb10u1",
-            "severity": "Negligible",
-            "url": "https://security-tracker.debian.org/tracker/CVE-2004-0971",
-            "vendor_data": [],
-            "vuln": "CVE-2004-0971"
-        },
-        {
-            "feed": "vulnerabilities",
-            "feed_group": "debian:10",
-            "fix": "None",
-            "nvd_data": [
-                {
-                    "cvss_v2": {
-                        "base_score": 5.0,
                         "exploitability_score": 10.0,
-                        "impact_score": 2.9
+                        "impact_score": 6.4
                     },
                     "cvss_v3": {
+                        "base_score": 9.8,
+                        "exploitability_score": 3.9,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2021-20232"
+                }
+            ],
+            "package": "libgnutls30-3.6.7-4+deb10u6",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libgnutls30",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "3.6.7-4+deb10u6",
+            "severity": "High",
+            "url": "https://security-tracker.debian.org/tracker/CVE-2021-20232",
+            "vendor_data": [],
+            "vuln": "CVE-2021-20232"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "debian:10",
+            "fix": "3.4.1-1+deb10u1",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
+                        "base_score": 6.8,
+                        "exploitability_score": 8.6,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 8.1,
+                        "exploitability_score": 2.2,
+                        "impact_score": 5.9
+                    },
+                    "id": "CVE-2021-20305"
+                }
+            ],
+            "package": "libhogweed4-3.4.1-1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libhogweed4",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "3.4.1-1",
+            "severity": "Medium",
+            "url": "https://security-tracker.debian.org/tracker/CVE-2021-20305",
+            "vendor_data": [],
+            "vuln": "CVE-2021-20305"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "debian:10",
+            "fix": "3.4.1-1+deb10u1",
+            "nvd_data": [],
+            "package": "libhogweed4-3.4.1-1",
+            "package_cpe": "None",
+            "package_cpe23": "None",
+            "package_name": "libhogweed4",
+            "package_path": "pkgdb",
+            "package_type": "dpkg",
+            "package_version": "3.4.1-1",
+            "severity": "Unknown",
+            "url": "https://security-tracker.debian.org/tracker/CVE-2021-3580",
+            "vendor_data": [],
+            "vuln": "CVE-2021-3580"
+        },
+        {
+            "feed": "vulnerabilities",
+            "feed_group": "debian:10",
+            "fix": "1.8.3-1+deb10u1",
+            "nvd_data": [
+                {
+                    "cvss_v2": {
                         "base_score": 7.5,
+                        "exploitability_score": 10.0,
+                        "impact_score": 6.4
+                    },
+                    "cvss_v3": {
+                        "base_score": 9.8,
                         "exploitability_score": 3.9,
-                        "impact_score": 3.6
+                        "impact_score": 5.9
                     },
-                    "id": "CVE-2018-5709"
+                    "id": "CVE-2021-3520"
                 }
             ],
-            "package": "libkrb5support0-1.17-3+deb10u1",
+            "package": "liblz4-1-1.8.3-1",
             "package_cpe": "None",
             "package_cpe23": "None",
-            "package_name": "libkrb5support0",
+            "package_name": "liblz4-1",
             "package_path": "pkgdb",
             "package_type": "dpkg",
-            "package_version": "1.17-3+deb10u1",
-            "severity": "Negligible",
-            "url": "https://security-tracker.debian.org/tracker/CVE-2018-5709",
+            "package_version": "1.8.3-1",
+            "severity": "High",
+            "url": "https://security-tracker.debian.org/tracker/CVE-2021-3520",
             "vendor_data": [],
-            "vuln": "CVE-2018-5709"
+            "vuln": "CVE-2021-3520"
         },
         {
             "feed": "vulnerabilities",
             "feed_group": "debian:10",
-            "fix": "None",
+            "fix": "3.4.1-1+deb10u1",
             "nvd_data": [
                 {
                     "cvss_v2": {
-                        "base_score": 5.0,
-                        "exploitability_score": 10.0,
-                        "impact_score": 2.9
+                        "base_score": 6.8,
+                        "exploitability_score": 8.6,
+                        "impact_score": 6.4
                     },
                     "cvss_v3": {
-                        "base_score": -1.0,
-                        "exploitability_score": -1.0,
-                        "impact_score": -1.0
+                        "base_score": 8.1,
+                        "exploitability_score": 2.2,
+                        "impact_score": 5.9
                     },
-                    "id": "CVE-2015-3276"
+                    "id": "CVE-2021-20305"
                 }
             ],
-            "package": "libldap-2.4-2-2.4.47+dfsg-3+deb10u6",
+            "package": "libnettle6-3.4.1-1",
             "package_cpe": "None",
             "package_cpe23": "None",
-            "package_name": "libldap-2.4-2",
+            "package_name": "libnettle6",
             "package_path": "pkgdb",
             "package_type": "dpkg",
-            "package_version": "2.4.47+dfsg-3+deb10u6",
-            "severity": "Negligible",
-            "url": "https://security-tracker.debian.org/tracker/CVE-2015-3276",
+            "package_version": "3.4.1-1",
+            "severity": "Medium",
+            "url": "https://security-tracker.debian.org/tracker/CVE-2021-20305",
             "vendor_data": [],
-            "vuln": "CVE-2015-3276"
+            "vuln": "CVE-2021-20305"
         },
         {
             "feed": "vulnerabilities",
             "feed_group": "debian:10",
-            "fix": "None",
-            "nvd_data": [
-                {
-                    "cvss_v2": {
-                        "base_score": 1.9,
-                        "exploitability_score": 3.4,
-                        "impact_score": 2.9
-                    },
-                    "cvss_v3": {
-                        "base_score": 4.7,
-                        "exploitability_score": 1.0,
-                        "impact_score": 3.6
-                    },
-                    "id": "CVE-2017-14159"
-                }
-            ],
-            "package": "libldap-2.4-2-2.4.47+dfsg-3+deb10u6",
+            "fix": "3.4.1-1+deb10u1",
+            "nvd_data": [],
+            "package": "libnettle6-3.4.1-1",
             "package_cpe": "None",
             "package_cpe23": "None",
-            "package_name": "libldap-2.4-2",
+            "package_name": "libnettle6",
             "package_path": "pkgdb",
             "package_type": "dpkg",
-            "package_version": "2.4.47+dfsg-3+deb10u6",
-            "severity": "Negligible",
-            "url": "https://security-tracker.debian.org/tracker/CVE-2017-14159",
+            "package_version": "3.4.1-1",
+            "severity": "Unknown",
+            "url": "https://security-tracker.debian.org/tracker/CVE-2021-3580",
             "vendor_data": [],
-            "vuln": "CVE-2017-14159"
-        },
-        {
-            "feed": "vulnerabilities",
-            "feed_group": "debian:10",
-            "fix": "None",
-            "nvd_data": [
-                {
-                    "cvss_v2": {
-                        "base_score": 5.0,
-                        "exploitability_score": 10.0,
-                        "impact_score": 2.9
-                    },
-                    "cvss_v3": {
-                        "base_score": 7.5,
-                        "exploitability_score": 3.9,
-                        "impact_score": 3.6
-                    },
-                    "id": "CVE-2017-17740"
-                }
-            ],
-            "package": "libldap-2.4-2-2.4.47+dfsg-3+deb10u6",
-            "package_cpe": "None",
-            "package_cpe23": "None",
-            "package_name": "libldap-2.4-2",
-            "package_path": "pkgdb",
-            "package_type": "dpkg",
-            "package_version": "2.4.47+dfsg-3+deb10u6",
-            "severity": "Negligible",
-            "url": "https://security-tracker.debian.org/tracker/CVE-2017-17740",
-            "vendor_data": [],
-            "vuln": "CVE-2017-17740"
-        },
-        {
-            "feed": "vulnerabilities",
-            "feed_group": "debian:10",
-            "fix": "None",
-            "nvd_data": [
-                {
-                    "cvss_v2": {
-                        "base_score": 4.0,
-                        "exploitability_score": 4.9,
-                        "impact_score": 4.9
-                    },
-                    "cvss_v3": {
-                        "base_score": 4.2,
-                        "exploitability_score": 1.6,
-                        "impact_score": 2.5
-                    },
-                    "id": "CVE-2020-15719"
-                }
-            ],
-            "package": "libldap-2.4-2-2.4.47+dfsg-3+deb10u6",
-            "package_cpe": "None",
-            "package_cpe23": "None",
-            "package_name": "libldap-2.4-2",
-            "package_path": "pkgdb",
-            "package_type": "dpkg",
-            "package_version": "2.4.47+dfsg-3+deb10u6",
-            "severity": "Negligible",
-            "url": "https://security-tracker.debian.org/tracker/CVE-2020-15719",
-            "vendor_data": [],
-            "vuln": "CVE-2020-15719"
-        },
-        {
-            "feed": "vulnerabilities",
-            "feed_group": "debian:10",
-            "fix": "None",
-            "nvd_data": [
-                {
-                    "cvss_v2": {
-                        "base_score": 5.0,
-                        "exploitability_score": 10.0,
-                        "impact_score": 2.9
-                    },
-                    "cvss_v3": {
-                        "base_score": -1.0,
-                        "exploitability_score": -1.0,
-                        "impact_score": -1.0
-                    },
-                    "id": "CVE-2015-3276"
-                }
-            ],
-            "package": "libldap-common-2.4.47+dfsg-3+deb10u6",
-            "package_cpe": "None",
-            "package_cpe23": "None",
-            "package_name": "libldap-common",
-            "package_path": "pkgdb",
-            "package_type": "dpkg",
-            "package_version": "2.4.47+dfsg-3+deb10u6",
-            "severity": "Negligible",
-            "url": "https://security-tracker.debian.org/tracker/CVE-2015-3276",
-            "vendor_data": [],
-            "vuln": "CVE-2015-3276"
-        },
-        {
-            "feed": "vulnerabilities",
-            "feed_group": "debian:10",
-            "fix": "None",
-            "nvd_data": [
-                {
-                    "cvss_v2": {
-                        "base_score": 1.9,
-                        "exploitability_score": 3.4,
-                        "impact_score": 2.9
-                    },
-                    "cvss_v3": {
-                        "base_score": 4.7,
-                        "exploitability_score": 1.0,
-                        "impact_score": 3.6
-                    },
-                    "id": "CVE-2017-14159"
-                }
-            ],
-            "package": "libldap-common-2.4.47+dfsg-3+deb10u6",
-            "package_cpe": "None",
-            "package_cpe23": "None",
-            "package_name": "libldap-common",
-            "package_path": "pkgdb",
-            "package_type": "dpkg",
-            "package_version": "2.4.47+dfsg-3+deb10u6",
-            "severity": "Negligible",
-            "url": "https://security-tracker.debian.org/tracker/CVE-2017-14159",
-            "vendor_data": [],
-            "vuln": "CVE-2017-14159"
-        },
-        {
-            "feed": "vulnerabilities",
-            "feed_group": "debian:10",
-            "fix": "None",
-            "nvd_data": [
-                {
-                    "cvss_v2": {
-                        "base_score": 5.0,
-                        "exploitability_score": 10.0,
-                        "impact_score": 2.9
-                    },
-                    "cvss_v3": {
-                        "base_score": 7.5,
-                        "exploitability_score": 3.9,
-                        "impact_score": 3.6
-                    },
-                    "id": "CVE-2017-17740"
-                }
-            ],
-            "package": "libldap-common-2.4.47+dfsg-3+deb10u6",
-            "package_cpe": "None",
-            "package_cpe23": "None",
-            "package_name": "libldap-common",
-            "package_path": "pkgdb",
-            "package_type": "dpkg",
-            "package_version": "2.4.47+dfsg-3+deb10u6",
-            "severity": "Negligible",
-            "url": "https://security-tracker.debian.org/tracker/CVE-2017-17740",
-            "vendor_data": [],
-            "vuln": "CVE-2017-17740"
-        },
-        {
-            "feed": "vulnerabilities",
-            "feed_group": "debian:10",
-            "fix": "None",
-            "nvd_data": [
-                {
-                    "cvss_v2": {
-                        "base_score": 4.0,
-                        "exploitability_score": 4.9,
-                        "impact_score": 4.9
-                    },
-                    "cvss_v3": {
-                        "base_score": 4.2,
-                        "exploitability_score": 1.6,
-                        "impact_score": 2.5
-                    },
-                    "id": "CVE-2020-15719"
-                }
-            ],
-            "package": "libldap-common-2.4.47+dfsg-3+deb10u6",
-            "package_cpe": "None",
-            "package_cpe23": "None",
-            "package_name": "libldap-common",
-            "package_path": "pkgdb",
-            "package_type": "dpkg",
-            "package_version": "2.4.47+dfsg-3+deb10u6",
-            "severity": "Negligible",
-            "url": "https://security-tracker.debian.org/tracker/CVE-2020-15719",
-            "vendor_data": [],
-            "vuln": "CVE-2020-15719"
+            "vuln": "CVE-2021-3580"
         },
         {
             "feed": "vulnerabilities",
@@ -1488,130 +1181,6 @@
             "url": "https://security-tracker.debian.org/tracker/CVE-2019-9893",
             "vendor_data": [],
             "vuln": "CVE-2019-9893"
-        },
-        {
-            "feed": "vulnerabilities",
-            "feed_group": "debian:10",
-            "fix": "None",
-            "nvd_data": [
-                {
-                    "cvss_v2": {
-                        "base_score": 5.0,
-                        "exploitability_score": 10.0,
-                        "impact_score": 2.9
-                    },
-                    "cvss_v3": {
-                        "base_score": 7.5,
-                        "exploitability_score": 3.9,
-                        "impact_score": 3.6
-                    },
-                    "id": "CVE-2019-19244"
-                }
-            ],
-            "package": "libsqlite3-0-3.27.2-3+deb10u1",
-            "package_cpe": "None",
-            "package_cpe23": "None",
-            "package_name": "libsqlite3-0",
-            "package_path": "pkgdb",
-            "package_type": "dpkg",
-            "package_version": "3.27.2-3+deb10u1",
-            "severity": "Negligible",
-            "url": "https://security-tracker.debian.org/tracker/CVE-2019-19244",
-            "vendor_data": [],
-            "vuln": "CVE-2019-19244"
-        },
-        {
-            "feed": "vulnerabilities",
-            "feed_group": "debian:10",
-            "fix": "None",
-            "nvd_data": [
-                {
-                    "cvss_v2": {
-                        "base_score": 7.5,
-                        "exploitability_score": 10.0,
-                        "impact_score": 6.4
-                    },
-                    "cvss_v3": {
-                        "base_score": 9.8,
-                        "exploitability_score": 3.9,
-                        "impact_score": 5.9
-                    },
-                    "id": "CVE-2020-11656"
-                }
-            ],
-            "package": "libsqlite3-0-3.27.2-3+deb10u1",
-            "package_cpe": "None",
-            "package_cpe23": "None",
-            "package_name": "libsqlite3-0",
-            "package_path": "pkgdb",
-            "package_type": "dpkg",
-            "package_version": "3.27.2-3+deb10u1",
-            "severity": "Negligible",
-            "url": "https://security-tracker.debian.org/tracker/CVE-2020-11656",
-            "vendor_data": [],
-            "vuln": "CVE-2020-11656"
-        },
-        {
-            "feed": "vulnerabilities",
-            "feed_group": "debian:10",
-            "fix": "None",
-            "nvd_data": [
-                {
-                    "cvss_v2": {
-                        "base_score": 5.8,
-                        "exploitability_score": 8.6,
-                        "impact_score": 4.9
-                    },
-                    "cvss_v3": {
-                        "base_score": -1.0,
-                        "exploitability_score": -1.0,
-                        "impact_score": -1.0
-                    },
-                    "id": "CVE-2007-6755"
-                }
-            ],
-            "package": "libssl1.1-1.1.1d-0+deb10u6",
-            "package_cpe": "None",
-            "package_cpe23": "None",
-            "package_name": "libssl1.1",
-            "package_path": "pkgdb",
-            "package_type": "dpkg",
-            "package_version": "1.1.1d-0+deb10u6",
-            "severity": "Negligible",
-            "url": "https://security-tracker.debian.org/tracker/CVE-2007-6755",
-            "vendor_data": [],
-            "vuln": "CVE-2007-6755"
-        },
-        {
-            "feed": "vulnerabilities",
-            "feed_group": "debian:10",
-            "fix": "None",
-            "nvd_data": [
-                {
-                    "cvss_v2": {
-                        "base_score": 4.0,
-                        "exploitability_score": 1.9,
-                        "impact_score": 6.9
-                    },
-                    "cvss_v3": {
-                        "base_score": -1.0,
-                        "exploitability_score": -1.0,
-                        "impact_score": -1.0
-                    },
-                    "id": "CVE-2010-0928"
-                }
-            ],
-            "package": "libssl1.1-1.1.1d-0+deb10u6",
-            "package_cpe": "None",
-            "package_cpe23": "None",
-            "package_name": "libssl1.1",
-            "package_path": "pkgdb",
-            "package_type": "dpkg",
-            "package_version": "1.1.1d-0+deb10u6",
-            "severity": "Negligible",
-            "url": "https://security-tracker.debian.org/tracker/CVE-2010-0928",
-            "vendor_data": [],
-            "vuln": "CVE-2010-0928"
         },
         {
             "feed": "vulnerabilities",
@@ -1984,68 +1553,6 @@
             "url": "https://security-tracker.debian.org/tracker/CVE-2019-19882",
             "vendor_data": [],
             "vuln": "CVE-2019-19882"
-        },
-        {
-            "feed": "vulnerabilities",
-            "feed_group": "debian:10",
-            "fix": "None",
-            "nvd_data": [
-                {
-                    "cvss_v2": {
-                        "base_score": 5.8,
-                        "exploitability_score": 8.6,
-                        "impact_score": 4.9
-                    },
-                    "cvss_v3": {
-                        "base_score": -1.0,
-                        "exploitability_score": -1.0,
-                        "impact_score": -1.0
-                    },
-                    "id": "CVE-2007-6755"
-                }
-            ],
-            "package": "openssl-1.1.1d-0+deb10u6",
-            "package_cpe": "None",
-            "package_cpe23": "None",
-            "package_name": "openssl",
-            "package_path": "pkgdb",
-            "package_type": "dpkg",
-            "package_version": "1.1.1d-0+deb10u6",
-            "severity": "Negligible",
-            "url": "https://security-tracker.debian.org/tracker/CVE-2007-6755",
-            "vendor_data": [],
-            "vuln": "CVE-2007-6755"
-        },
-        {
-            "feed": "vulnerabilities",
-            "feed_group": "debian:10",
-            "fix": "None",
-            "nvd_data": [
-                {
-                    "cvss_v2": {
-                        "base_score": 4.0,
-                        "exploitability_score": 1.9,
-                        "impact_score": 6.9
-                    },
-                    "cvss_v3": {
-                        "base_score": -1.0,
-                        "exploitability_score": -1.0,
-                        "impact_score": -1.0
-                    },
-                    "id": "CVE-2010-0928"
-                }
-            ],
-            "package": "openssl-1.1.1d-0+deb10u6",
-            "package_cpe": "None",
-            "package_cpe23": "None",
-            "package_name": "openssl",
-            "package_path": "pkgdb",
-            "package_type": "dpkg",
-            "package_version": "1.1.1d-0+deb10u6",
-            "severity": "Negligible",
-            "url": "https://security-tracker.debian.org/tracker/CVE-2010-0928",
-            "vendor_data": [],
-            "vuln": "CVE-2010-0928"
         },
         {
             "feed": "vulnerabilities",
